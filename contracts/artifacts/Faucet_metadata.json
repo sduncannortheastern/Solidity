@@ -47,10 +47,10 @@
 	},
 	"sources": {
 		"contracts/Faucet.sol": {
-			"keccak256": "0xbee1552d60c4a15b341ae0d87ace5146b3902c40341cfd61e4af1d5e4821d248",
+			"keccak256": "0x73a5aba8365533d8c32a4a00aa2a3095ca446153b9e9a0327c2edfe764356f0a",
 			"urls": [
-				"bzz-raw://5535ecc1672b4528b6e98321fdf462d2525af40638b3002272202c48eb62a4e5",
-				"dweb:/ipfs/QmdQQHw54R9mdSoqw2krsprirqtmPqF4SRa3HwLuEXEpd8"
+				"bzz-raw://1fd91d2e1cb9b0a281f905f80aebb00d2706341d6e151cd23cb1d88911facf51",
+				"dweb:/ipfs/QmQgDvmedqycpzQauASpqbxrrRJ1EFv7gJLFy6g7t5SXko"
 			]
 		}
 	},
