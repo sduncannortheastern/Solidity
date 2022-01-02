@@ -1,10 +1,55 @@
 {
 	"compiler": {
-		"version": "0.6.4+commit.1dca32f3"
+		"version": "0.8.11+commit.d7f03943"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposit",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Withdrawal",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "destroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
 			{
 				"inputs": [
 					{
@@ -24,33 +69,38 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts/Faucet.sol": "Faucet"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"contracts/Faucet.sol": {
-			"keccak256": "0x39515f1c9c2450080e45d8f81d99c4d56a38f8ca8b5a31e9291f7feeed5de6f8",
+			"keccak256": "0x70d200b9410db8afb0222483a9e341f11ee61e65d9dfe326ea10438e90fb0417",
+			"license": "CC-BY-SA-4.0",
 			"urls": [
-				"bzz-raw://45ef10fc6e8447e93d6867caf5e536748bbd3326a422f903ae04d8b7f66872aa",
-				"dweb:/ipfs/Qmd9v3vqLMdCYsjUVtTarb9JyS37cXncYcjTeSsXPwgqsg"
+				"bzz-raw://64b4de4c335dc7c1c2fdf1ba30dc3bd77d3525bde091d5f203382cbd60586125",
+				"dweb:/ipfs/QmV7FyT5g1W5Fb7s1QhJ2uqUHxo1RKdRaySce2jP4Nm8vL"
 			]
 		}
 	},
